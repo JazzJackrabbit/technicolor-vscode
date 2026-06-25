@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technicolor &mdash; Vinyl Collection</title>
+  <link rel="stylesheet" href="sample.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <nav aria-label="Main navigation">
+      <a href="/" class="logo">Technicolor</a>
+      <ul class="nav-links">
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#genres">Genres</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="app">
+    <section id="collection" class="hero">
+      <h1>The <em>Grooviest</em> Collection</h1>
+      <p>Curated vinyl records from the golden era of funk, soul &amp; disco.</p>
+      <button type="button" id="shuffle-btn" data-action="shuffle">
+        Shuffle &raquo;
+      </button>
+    </section>
+
+    <section id="genres" class="genre-grid">
+      <article class="genre-card" data-genre="funk">
+        <img src="/images/funk.jpg" alt="Funk records" loading="lazy" width="300" height="200" />
+        <h2>Funk</h2>
+        <p>Heavy bass, syncopated rhythms &mdash; <strong>24 records</strong></p>
+      </article>
+      <article class="genre-card" data-genre="soul">
+        <img src="/images/soul.jpg" alt="Soul records" loading="lazy" width="300" height="200" />
+        <h2>Soul</h2>
+        <p>Deep grooves &amp; heartfelt vocals &mdash; <strong>18 records</strong></p>
+      </article>
+      <article class="genre-card" data-genre="disco">
+        <img src="/images/disco.jpg" alt="Disco records" loading="lazy" width="300" height="200" />
+        <h2>Disco</h2>
+        <p>Four-on-the-floor &amp; mirror balls &mdash; <strong>31 records</strong></p>
+        <span class="badge">Popular</span>
+      </article>
+    </section>
+
+    <section id="player">
+      <div class="player-controls">
+        <button type="button" aria-label="Previous track">&laquo;</button>
+        <button type="button" aria-label="Play" class="play-btn">&#9654;</button>
+        <button type="button" aria-label="Next track">&raquo;</button>
+      </div>
+      <progress id="track-progress" value="42" max="100">42%</progress>
+      <output for="track-progress">1:48 / 4:15</output>
+    </section>
+
+    <!-- Track table -->
+    <table class="track-table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Title</th>
+          <th scope="col">Artist</th>
+          <th scope="col">Year</th>
+          <th scope="col">Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><a href="#track-1">Superstition</a></td>
+          <td>Stevie Wonder</td>
+          <td><time datetime="1972">1972</time></td>
+          <td>4:26</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><a href="#track-2">Give It Up or Turnit a Loose</a></td>
+          <td>James Brown</td>
+          <td><time datetime="1969">1969</time></td>
+          <td>3:55</td>
+        </tr>
+        <tr class="currently-playing">
+          <td>3</td>
+          <td><a href="#track-3">Le Freak</a></td>
+          <td>Chic</td>
+          <td><time datetime="1978">1978</time></td>
+          <td>5:23</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer id="about">
+    <p>&copy; 2026 Technicolor. All rights reserved.</p>
+    <p>Built with <abbr title="HyperText Markup Language">HTML</abbr>,
+       <abbr title="Cascading Style Sheets">CSS</abbr> &amp; good taste.</p>
+  </footer>
+
+  <script>
+    document.getElementById("shuffle-btn").addEventListener("click", () => {
+      const rows = [...document.querySelectorAll(".track-table tbody tr")];
+      const tbody = rows[0]?.parentElement;
+      if (!tbody) return;
+
+      for (let i = rows.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        tbody.insertBefore(rows[j], rows[i]);
+      }
+    });
+  </script>
+</body>
+</html>
