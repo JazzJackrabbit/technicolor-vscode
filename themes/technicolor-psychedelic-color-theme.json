@@ -527,7 +527,39 @@
     "charts.yellow": "#FFAA00",
     "charts.blue": "#3388EE",
     "charts.orange": "#C09868",
-    "charts.purple": "#C850C0"
+    "charts.purple": "#C850C0",
+
+    // ── Extended workbench ──
+    "breadcrumb.background": "#14101A",
+    "debugToolBar.border": "#2C2838",
+    "editor.foldBackground": "#1C182480",
+    "editorCodeLens.foreground": "#605850",
+    "editorCursor.background": "#14101A",
+    "editorGroupHeader.tabsBorder": "#2C2838",
+    "editorLightBulb.foreground": "#FFAA00",
+    "editorLightBulbAutoFix.foreground": "#33BB55",
+    "inputValidation.errorForeground": "#E83333",
+    "inputValidation.infoForeground": "#C850C0",
+    "inputValidation.warningForeground": "#FFAA00",
+    "list.invalidItemForeground": "#E8333388",
+    "merge.commonContentBackground": "#FFAA0022",
+    "merge.commonHeaderBackground": "#FFAA0044",
+    "notificationsErrorIcon.foreground": "#E83333",
+    "notificationsInfoIcon.foreground": "#C850C0",
+    "notificationsWarningIcon.foreground": "#FFAA00",
+    "panel.foreground": "#C8C0A8",
+    "settings.checkboxForeground": "#C8C0A8",
+    "settings.dropdownForeground": "#C8C0A8",
+    "settings.focusedRowBorder": "#A0E03055",
+    "settings.numberInputForeground": "#C8C0A8",
+    "settings.textInputForeground": "#C8C0A8",
+    "statusBarItem.activeBackground": "#2C2838",
+    "statusBarItem.prominentForeground": "#14101A",
+    "tab.hoverForeground": "#C8C0A8",
+    "tab.unfocusedActiveForeground": "#605850",
+    "tab.unfocusedInactiveForeground": "#605850",
+    "welcomePage.buttonBackground": "#201C28",
+    "welcomePage.buttonHoverBackground": "#2C2838"
   },
 
   // ============================================================
@@ -1184,6 +1216,7 @@
         "heading.4.markdown entity.name",
         "heading.5.markdown entity.name",
         "heading.6.markdown entity.name",
+        "entity.name.section.markdown",
         "markup.heading",
         "markup.heading.setext"
       ],
