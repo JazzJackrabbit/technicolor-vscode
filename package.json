@@ -2,8 +2,8 @@
   "name": "technicolor",
   "displayName": "Technicolor",
   "description": "Seven bold dark themes inspired by Technicolor, Kodachrome, and the visual culture of the 1950s–70s.",
-  "version": "0.1.0",
-  "publisher": "KirillRagozin",
+  "version": "0.1.1",
+  "publisher": "oppositefish",
   "license": "MIT",
   "author": {
     "name": "Kirill Ragozin",
@@ -42,14 +42,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Technicolor Neon",
-        "uiTheme": "vs-dark",
-        "path": "./themes/technicolor-neon-color-theme.json"
-      },
-      {
         "label": "Technicolor Deep",
         "uiTheme": "vs-dark",
         "path": "./themes/technicolor-deep-color-theme.json"
+      },
+      {
+        "label": "Technicolor Kodachrome",
+        "uiTheme": "vs-dark",
+        "path": "./themes/technicolor-kodachrome-color-theme.json"
       },
       {
         "label": "Technicolor Warm",
@@ -57,9 +57,14 @@
         "path": "./themes/technicolor-warm-color-theme.json"
       },
       {
-        "label": "Technicolor Kodachrome",
+        "label": "Technicolor Neon",
         "uiTheme": "vs-dark",
-        "path": "./themes/technicolor-kodachrome-color-theme.json"
+        "path": "./themes/technicolor-neon-color-theme.json"
+      },
+      {
+        "label": "Technicolor Marquee",
+        "uiTheme": "vs-dark",
+        "path": "./themes/technicolor-marquee-color-theme.json"
       },
       {
         "label": "Technicolor Drive-In",
@@ -70,15 +75,7 @@
         "label": "Technicolor Psychedelic",
         "uiTheme": "vs-dark",
         "path": "./themes/technicolor-psychedelic-color-theme.json"
-      },
-      {
-        "label": "Technicolor Marquee",
-        "uiTheme": "vs-dark",
-        "path": "./themes/technicolor-marquee-color-theme.json"
       }
     ]
-  },
-  "devDependencies": {
-    "@types/node": "^25.2.1"
   }
 }

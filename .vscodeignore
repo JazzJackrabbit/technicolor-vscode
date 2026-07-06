@@ -1,5 +1,11 @@
 .git/**
 .gitignore
 .vscode/**
+.claude/**
 *.md
 !README.md
+!CHANGELOG.md
+scripts/**
+test/**
+images/**
+!images/icon.png
