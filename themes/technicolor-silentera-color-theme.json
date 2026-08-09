@@ -158,16 +158,16 @@
     "statusBar.foreground": "#C6C1B8",
     "statusBar.border": "#2B2926",
     "statusBar.debuggingBackground": "#F2EDE3",
-    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBar.debuggingForeground": "#151413",
     "statusBar.noFolderBackground": "#151413",
     "statusBar.noFolderForeground": "#C6C1B8",
     "statusBarItem.activeBackground": "#2B2926",
     "statusBarItem.hoverBackground": "#1E1C1A",
     "statusBarItem.prominentBackground": "#F2EDE3",
-    "statusBarItem.prominentForeground": "#FFFFFF",
+    "statusBarItem.prominentForeground": "#151413",
     "statusBarItem.prominentHoverBackground": "#DDD7CC",
     "statusBarItem.remoteBackground": "#DAD4CA",
-    "statusBarItem.remoteForeground": "#FFFFFF",
+    "statusBarItem.remoteForeground": "#151413",
 
     // ── Panel (Terminal, Output, Debug Console) ──
     "panel.background": "#151413",
@@ -232,7 +232,7 @@
 
     // ── Button ──
     "button.background": "#F2EDE3",
-    "button.foreground": "#FFFFFF",
+    "button.foreground": "#151413",
     "button.hoverBackground": "#DDD7CC",
     "button.secondaryBackground": "#2B2926",
     "button.secondaryForeground": "#C6C1B8",
@@ -275,7 +275,7 @@
 
     // ── Badge ──
     "badge.background": "#F2EDE3",
-    "badge.foreground": "#FFFFFF",
+    "badge.foreground": "#151413",
 
     // ── Progress Bar ──
     "progressBar.background": "#F2EDE3",
@@ -514,12 +514,12 @@
 
     // ── Extensions ──
     "extensionBadge.remoteBackground": "#F2EDE3",
-    "extensionBadge.remoteForeground": "#FFFFFF",
+    "extensionBadge.remoteForeground": "#151413",
     "extensionButton.background": "#F2EDE3",
-    "extensionButton.foreground": "#FFFFFF",
+    "extensionButton.foreground": "#151413",
     "extensionButton.hoverBackground": "#DDD7CC",
     "extensionButton.prominentBackground": "#F2EDE3",
-    "extensionButton.prominentForeground": "#FFFFFF",
+    "extensionButton.prominentForeground": "#151413",
     "extensionButton.prominentHoverBackground": "#DDD7CC",
     "extensionIcon.preReleaseForeground": "#C29A55",
     "extensionIcon.sponsorForeground": "#DAD4CA",
