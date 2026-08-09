@@ -424,7 +424,7 @@
     "statusBarItem.errorBackground": "#E83333",
     "statusBarItem.errorForeground": "#FFFFFF",
     "statusBarItem.prominentBackground": "#261E16",
-    "statusBarItem.prominentForeground": "#1A1610",
+    "statusBarItem.prominentForeground": "#FFFFFF",
     "statusBarItem.prominentHoverBackground": "#332C22",
     "statusBarItem.warningBackground": "#FFAA00",
     "statusBarItem.warningForeground": "#1A1610",
