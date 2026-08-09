@@ -3,6 +3,17 @@
 All notable changes to the Technicolor themes are documented in this file. The
 format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## 0.2.1 - 2026-08-10
+
+### Fixed
+
+- Silent Era used white text on its near-white accent, leaving buttons,
+  badges, extension buttons and the prominent, remote and debugging status
+  bar items unreadable at 1.17:1. All eight now use the theme base and read
+  at 12.5:1 or better.
+- Kodachrome's prominent status bar item drew the editor base on a barely
+  lighter chip; its text is now white.
+
 ## 0.2.0 - 2026-08-09
 
 ### Added
