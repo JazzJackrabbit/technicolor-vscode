@@ -15,7 +15,7 @@ format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 - 88 new workbench color keys in every variant: suggest-widget symbol icons,
   notebooks, chat and inline chat, toolbars, quick picker groups, the search
-  editor, extension views, problems icons, marker navigation, and ports. All
+  editor, extension views, problems icons, marker navigation and ports. All
   variants still define the identical key set (now 455 keys).
 - Drive-In backgrounds carry a cooler night-sky cast instead of neutral gray.
 - Extension icon and banner now show eight bars.

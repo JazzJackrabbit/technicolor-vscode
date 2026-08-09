@@ -25,7 +25,10 @@ jobs:
       - name: Attach VSIX to GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release upload "$GITHUB_REF_NAME" *.vsix --clobber
+        run: |
+          gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1 || \
+            gh release create "$GITHUB_REF_NAME" --title "$GITHUB_REF_NAME" --verify-tag --notes-from-tag
+          gh release upload "$GITHUB_REF_NAME" *.vsix --clobber
 
       - name: Publish to Marketplace
         if: ${{ vars.PUBLISH_MARKETPLACE == 'true' }}

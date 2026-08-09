@@ -2,10 +2,11 @@
   <img src="https://raw.githubusercontent.com/JazzJackrabbit/technicolor-vscode/main/images/banner.png" alt="Technicolor — eight dark themes for Visual Studio Code" width="100%">
 </p>
 
-Eight dark themes for Visual Studio Code, drawn from a century of film —
-silent-era monochrome, Kodachrome stock, drive-ins, neon signs. Each one
-builds on a muted base with one or two strong accents, and styles the full
-editor: workbench, syntax, and the integrated terminal.
+Technicolor is a set of eight dark themes for Visual Studio Code, taking
+after a century of film: silent-era monochrome, Kodachrome stock, drive-ins
+and neon signs. Every theme starts from a muted near-black base, adds one or
+two strong accents and covers the whole editor, from the workbench and
+syntax down to the integrated terminal.
 
 [Deep](#deep) ·
 [Kodachrome](#kodachrome) ·
@@ -60,14 +61,13 @@ editor: workbench, syntax, and the integrated terminal.
 
 ## Design
 
-Every variant is built the same way: a tinted near-black base, one or two
-strong accents, and a muted supporting palette. All eight themes define the
-identical set of 455 workbench color keys, 81 syntax token rules, and 38
-semantic token rules — only the colors change — so menus, terminals, charts,
-notebooks, and debug icons are themed consistently in every variant. Semantic
-highlighting and the full 16-color terminal ANSI palette are covered.
+All eight themes share one structure. Every variant defines the identical
+set of 455 workbench colors, 81 syntax rules and 38 semantic token rules;
+only the palette changes. Menus, terminals, charts, notebooks and debug
+icons stay consistent no matter which variant is active, and each theme
+ships semantic highlighting and a full 16-color terminal palette.
 
-The banner and title cards are generated from the theme files themselves by
+The banner and title cards are generated straight from the theme files by
 [`scripts/build-assets.py`](scripts/build-assets.py), so the artwork always
 matches the shipped colors.
 
