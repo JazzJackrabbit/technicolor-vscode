@@ -1,8 +1,8 @@
 {
   "name": "technicolor",
   "displayName": "Technicolor",
-  "description": "Seven bold dark themes inspired by the visual culture of the 1950s–70s.",
-  "version": "0.1.1",
+  "description": "Eight bold dark themes drawn from a century of film.",
+  "version": "0.2.0",
   "publisher": "oppositefish",
   "license": "MIT",
   "author": {
@@ -14,7 +14,16 @@
     "url": "https://github.com/JazzJackrabbit/technicolor-vscode/issues"
   },
   "engines": {
-    "vscode": "^1.60.0"
+    "vscode": "^1.74.0"
+  },
+  "scripts": {
+    "assets": "python3 scripts/build-assets.py",
+    "lint": "python3 scripts/validate-themes.py",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.0.0",
+    "ovsx": "^0.10.0"
   },
   "categories": [
     "Themes"
@@ -75,6 +84,11 @@
         "label": "Technicolor Psychedelic",
         "uiTheme": "vs-dark",
         "path": "./themes/technicolor-psychedelic-color-theme.json"
+      },
+      {
+        "label": "Technicolor Silent Era",
+        "uiTheme": "vs-dark",
+        "path": "./themes/technicolor-silentera-color-theme.json"
       }
     ]
   }

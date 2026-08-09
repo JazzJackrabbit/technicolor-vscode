@@ -432,7 +432,113 @@
     "tree.tableColumnsBorder": "#2A2838",
     "welcomePage.buttonBackground": "#1E1C28",
     "welcomePage.buttonHoverBackground": "#2A2838",
-    "widget.border": "#2A2838"
+    "widget.border": "#2A2838",
+
+    // ── Symbol Icons ──
+    "symbolIcon.arrayForeground": "#C0BCD0",
+    "symbolIcon.booleanForeground": "#A898C0",
+    "symbolIcon.classForeground": "#A898C0",
+    "symbolIcon.colorForeground": "#C0BCD0",
+    "symbolIcon.constantForeground": "#A898C0",
+    "symbolIcon.constructorForeground": "#00DDFF",
+    "symbolIcon.enumeratorForeground": "#A898C0",
+    "symbolIcon.enumeratorMemberForeground": "#A898C0",
+    "symbolIcon.eventForeground": "#FF2D95",
+    "symbolIcon.fieldForeground": "#8898B0",
+    "symbolIcon.fileForeground": "#C0BCD0",
+    "symbolIcon.folderForeground": "#C0BCD0",
+    "symbolIcon.functionForeground": "#00DDFF",
+    "symbolIcon.interfaceForeground": "#A898C0",
+    "symbolIcon.keyForeground": "#8898B0",
+    "symbolIcon.keywordForeground": "#FF2D95",
+    "symbolIcon.methodForeground": "#00DDFF",
+    "symbolIcon.moduleForeground": "#A898C0",
+    "symbolIcon.namespaceForeground": "#A898C0",
+    "symbolIcon.nullForeground": "#A898C0",
+    "symbolIcon.numberForeground": "#A898C0",
+    "symbolIcon.objectForeground": "#A898C0",
+    "symbolIcon.operatorForeground": "#555068",
+    "symbolIcon.packageForeground": "#A898C0",
+    "symbolIcon.propertyForeground": "#8898B0",
+    "symbolIcon.referenceForeground": "#FF2D95",
+    "symbolIcon.snippetForeground": "#88B0A0",
+    "symbolIcon.stringForeground": "#88B0A0",
+    "symbolIcon.structForeground": "#A898C0",
+    "symbolIcon.textForeground": "#C0BCD0",
+    "symbolIcon.typeParameterForeground": "#A898C0",
+    "symbolIcon.unitForeground": "#A898C0",
+    "symbolIcon.variableForeground": "#8898B0",
+
+    // ── Toolbar ──
+    "toolbar.hoverBackground": "#FF2D9522",
+    "toolbar.activeBackground": "#FF2D9533",
+
+    // ── Quick Picker ──
+    "pickerGroup.border": "#2A2838",
+    "pickerGroup.foreground": "#FF2D95",
+
+    // ── Notebook ──
+    "notebook.editorBackground": "#12101A",
+    "notebook.cellEditorBackground": "#1E1C28",
+    "notebook.cellBorderColor": "#2A2838",
+    "notebook.focusedCellBorder": "#FF2D95",
+    "notebook.selectedCellBackground": "#FF2D9511",
+    "notebook.selectedCellBorder": "#2A2838",
+    "notebook.cellInsertionIndicator": "#FF2D95",
+    "notebook.cellStatusBarItemHoverBackground": "#FF2D9522",
+    "notebook.cellToolbarSeparator": "#2A2838",
+    "notebookStatusErrorIcon.foreground": "#E83333",
+    "notebookStatusRunningIcon.foreground": "#00DDFF",
+    "notebookStatusSuccessIcon.foreground": "#33BB55",
+
+    // ── Chat ──
+    "chat.avatarBackground": "#1E1C28",
+    "chat.avatarForeground": "#FF2D95",
+    "chat.requestBackground": "#1E1C28",
+    "chat.requestBorder": "#2A2838",
+    "chat.slashCommandBackground": "#FF2D9522",
+    "chat.slashCommandForeground": "#FF2D95",
+    "inlineChat.background": "#1E1C28",
+    "inlineChat.border": "#2A2838",
+    "inlineChat.shadow": "#00000055",
+    "inlineChatDiff.inserted": "#33BB5522",
+    "inlineChatDiff.removed": "#E8333322",
+    "inlineChatInput.background": "#12101A",
+    "inlineChatInput.border": "#2A2838",
+    "inlineChatInput.focusBorder": "#FF2D9588",
+    "inlineChatInput.placeholderForeground": "#555068",
+
+    // ── Search Editor ──
+    "searchEditor.findMatchBackground": "#FF2D9544",
+    "searchEditor.textInputBorder": "#2A2838",
+
+    // ── Extensions ──
+    "extensionBadge.remoteBackground": "#FF2D95",
+    "extensionBadge.remoteForeground": "#12101A",
+    "extensionButton.background": "#FF2D95",
+    "extensionButton.foreground": "#FFFFFF",
+    "extensionButton.hoverBackground": "#E02080",
+    "extensionButton.prominentBackground": "#FF2D95",
+    "extensionButton.prominentForeground": "#FFFFFF",
+    "extensionButton.prominentHoverBackground": "#E02080",
+    "extensionIcon.preReleaseForeground": "#FFAA00",
+    "extensionIcon.sponsorForeground": "#00DDFF",
+    "extensionIcon.starForeground": "#FFAA00",
+    "extensionIcon.verifiedForeground": "#00DDFF",
+
+    // ── Problems and Markers ──
+    "problemsErrorIcon.foreground": "#E83333",
+    "problemsInfoIcon.foreground": "#00DDFF",
+    "problemsWarningIcon.foreground": "#FFAA00",
+    "editorMarkerNavigation.background": "#1E1C28",
+    "editorMarkerNavigationError.background": "#E83333",
+    "editorMarkerNavigationInfo.background": "#00DDFF",
+    "editorMarkerNavigationWarning.background": "#FFAA00",
+
+    // ── Links, Ports, Unused Code ──
+    "editorLink.activeForeground": "#00DDFF",
+    "editorUnnecessaryCode.opacity": "#000000AA",
+    "ports.iconRunningProcessForeground": "#33BB55"
   },
   "tokenColors": [
     // ── Comments ──

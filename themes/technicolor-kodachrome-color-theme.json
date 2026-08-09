@@ -437,7 +437,113 @@
     "welcomePage.buttonBackground": "#261E16",
     "welcomePage.buttonHoverBackground": "#332C22",
     "welcomePage.progress.foreground": "#00A6A0",
-    "widget.border": "#332C22"
+    "widget.border": "#332C22",
+
+    // ── Symbol Icons ──
+    "symbolIcon.arrayForeground": "#CCC4A8",
+    "symbolIcon.booleanForeground": "#BCA868",
+    "symbolIcon.classForeground": "#BCA868",
+    "symbolIcon.colorForeground": "#CCC4A8",
+    "symbolIcon.constantForeground": "#BCA868",
+    "symbolIcon.constructorForeground": "#E8634A",
+    "symbolIcon.enumeratorForeground": "#BCA868",
+    "symbolIcon.enumeratorMemberForeground": "#BCA868",
+    "symbolIcon.eventForeground": "#00A6A0",
+    "symbolIcon.fieldForeground": "#B09080",
+    "symbolIcon.fileForeground": "#CCC4A8",
+    "symbolIcon.folderForeground": "#CCC4A8",
+    "symbolIcon.functionForeground": "#E8634A",
+    "symbolIcon.interfaceForeground": "#BCA868",
+    "symbolIcon.keyForeground": "#B09080",
+    "symbolIcon.keywordForeground": "#00A6A0",
+    "symbolIcon.methodForeground": "#E8634A",
+    "symbolIcon.moduleForeground": "#BCA868",
+    "symbolIcon.namespaceForeground": "#BCA868",
+    "symbolIcon.nullForeground": "#BCA868",
+    "symbolIcon.numberForeground": "#BCA868",
+    "symbolIcon.objectForeground": "#BCA868",
+    "symbolIcon.operatorForeground": "#6E6448",
+    "symbolIcon.packageForeground": "#BCA868",
+    "symbolIcon.propertyForeground": "#B09080",
+    "symbolIcon.referenceForeground": "#00A6A0",
+    "symbolIcon.snippetForeground": "#98A878",
+    "symbolIcon.stringForeground": "#98A878",
+    "symbolIcon.structForeground": "#BCA868",
+    "symbolIcon.textForeground": "#CCC4A8",
+    "symbolIcon.typeParameterForeground": "#BCA868",
+    "symbolIcon.unitForeground": "#BCA868",
+    "symbolIcon.variableForeground": "#B09080",
+
+    // ── Toolbar ──
+    "toolbar.hoverBackground": "#00A6A022",
+    "toolbar.activeBackground": "#00A6A033",
+
+    // ── Quick Picker ──
+    "pickerGroup.border": "#332C22",
+    "pickerGroup.foreground": "#00A6A0",
+
+    // ── Notebook ──
+    "notebook.editorBackground": "#1A1610",
+    "notebook.cellEditorBackground": "#201C14",
+    "notebook.cellBorderColor": "#332C22",
+    "notebook.focusedCellBorder": "#00A6A0",
+    "notebook.selectedCellBackground": "#00A6A011",
+    "notebook.selectedCellBorder": "#332C22",
+    "notebook.cellInsertionIndicator": "#00A6A0",
+    "notebook.cellStatusBarItemHoverBackground": "#00A6A022",
+    "notebook.cellToolbarSeparator": "#332C22",
+    "notebookStatusErrorIcon.foreground": "#E83333",
+    "notebookStatusRunningIcon.foreground": "#00A6A0",
+    "notebookStatusSuccessIcon.foreground": "#33BB55",
+
+    // ── Chat ──
+    "chat.avatarBackground": "#201C14",
+    "chat.avatarForeground": "#00A6A0",
+    "chat.requestBackground": "#201C14",
+    "chat.requestBorder": "#332C22",
+    "chat.slashCommandBackground": "#00A6A022",
+    "chat.slashCommandForeground": "#00A6A0",
+    "inlineChat.background": "#201C14",
+    "inlineChat.border": "#332C22",
+    "inlineChat.shadow": "#00000044",
+    "inlineChatDiff.inserted": "#33BB5522",
+    "inlineChatDiff.removed": "#E8333322",
+    "inlineChatInput.background": "#1A1610",
+    "inlineChatInput.border": "#332C22",
+    "inlineChatInput.focusBorder": "#00A6A088",
+    "inlineChatInput.placeholderForeground": "#6E6448",
+
+    // ── Search Editor ──
+    "searchEditor.findMatchBackground": "#00A6A044",
+    "searchEditor.textInputBorder": "#332C22",
+
+    // ── Extensions ──
+    "extensionBadge.remoteBackground": "#E8634A",
+    "extensionBadge.remoteForeground": "#1A1610",
+    "extensionButton.background": "#00A6A0",
+    "extensionButton.foreground": "#1A1610",
+    "extensionButton.hoverBackground": "#009088",
+    "extensionButton.prominentBackground": "#00A6A0",
+    "extensionButton.prominentForeground": "#1A1610",
+    "extensionButton.prominentHoverBackground": "#009088",
+    "extensionIcon.preReleaseForeground": "#FFAA00",
+    "extensionIcon.sponsorForeground": "#E8634A",
+    "extensionIcon.starForeground": "#FFAA00",
+    "extensionIcon.verifiedForeground": "#00A6A0",
+
+    // ── Problems and Markers ──
+    "problemsErrorIcon.foreground": "#E83333",
+    "problemsInfoIcon.foreground": "#00A6A0",
+    "problemsWarningIcon.foreground": "#FFAA00",
+    "editorMarkerNavigation.background": "#201C14",
+    "editorMarkerNavigationError.background": "#E83333",
+    "editorMarkerNavigationInfo.background": "#00A6A0",
+    "editorMarkerNavigationWarning.background": "#FFAA00",
+
+    // ── Links, Ports, Unused Code ──
+    "editorLink.activeForeground": "#00A6A0",
+    "editorUnnecessaryCode.opacity": "#000000AA",
+    "ports.iconRunningProcessForeground": "#33BB55"
   },
 
   "tokenColors": [
@@ -549,7 +655,7 @@
     // 4. Constants
     // ────────────────────────────────────────────────────────
     {
-      "name": "Constant",
+      "name": "Constant (numeric, boolean, null)",
       "scope": [
         "constant.numeric",
         "constant.language",
@@ -603,7 +709,7 @@
       }
     },
     {
-      "name": "Return/yield/await",
+      "name": "Return / yield / await",
       "scope": [
         "keyword.control.return",
         "keyword.control.yield",
@@ -615,7 +721,7 @@
       }
     },
     {
-      "name": "Operator keyword",
+      "name": "Operator keyword (new, delete, typeof, instanceof, in, of)",
       "scope": [
         "keyword.operator.new",
         "keyword.operator.delete",
@@ -658,7 +764,7 @@
     // 7. Storage/Modifiers
     // ────────────────────────────────────────────────────────
     {
-      "name": "Storage type",
+      "name": "Storage type (class, function, var, let, const)",
       "scope": [
         "storage.type",
         "storage.type.function",
@@ -673,7 +779,7 @@
       }
     },
     {
-      "name": "Storage modifier",
+      "name": "Storage modifier (async, static, public, private, etc.)",
       "scope": [
         "storage.modifier",
         "storage.modifier.async",
@@ -712,7 +818,7 @@
       }
     },
     {
-      "name": "Built-in function",
+      "name": "Built-in function / magic method",
       "scope": [
         "support.function.builtin",
         "support.function.magic",
@@ -749,7 +855,7 @@
       }
     },
     {
-      "name": "Variable property",
+      "name": "Variable object property",
       "scope": [
         "variable.other.object.property",
         "variable.other.property",
@@ -772,7 +878,7 @@
       }
     },
     {
-      "name": "Language variable",
+      "name": "Language variable (this, self, super)",
       "scope": [
         "variable.language",
         "variable.language.this",
@@ -785,7 +891,7 @@
       }
     },
     {
-      "name": "Constant variable",
+      "name": "Constant variable (UPPER_CASE)",
       "scope": [
         "variable.other.constant"
       ],
@@ -835,7 +941,7 @@
       }
     },
     {
-      "name": "Type parameter",
+      "name": "Type parameter (generic T)",
       "scope": [
         "entity.name.type.parameter"
       ],
@@ -874,7 +980,7 @@
       }
     },
     {
-      "name": "Annotation",
+      "name": "Annotation (Java, Python)",
       "scope": [
         "storage.type.annotation",
         "meta.annotation"
@@ -920,7 +1026,7 @@
       }
     },
     {
-      "name": "HTML attribute",
+      "name": "HTML attribute name",
       "scope": [
         "entity.other.attribute-name",
         "entity.other.attribute-name.html"
@@ -990,7 +1096,7 @@
       }
     },
     {
-      "name": "CSS selector",
+      "name": "CSS selector (class, id)",
       "scope": [
         "entity.other.attribute-name.class.css",
         "entity.other.attribute-name.id.css",
@@ -1011,7 +1117,7 @@
       }
     },
     {
-      "name": "CSS unit/numeric",
+      "name": "CSS unit / numeric",
       "scope": [
         "keyword.other.unit.css",
         "constant.numeric.css"
@@ -1042,7 +1148,7 @@
       }
     },
     {
-      "name": "SCSS keyword",
+      "name": "SCSS keyword (@mixin, @include, etc.)",
       "scope": [
         "keyword.control.at-rule.css",
         "keyword.control.at-rule.scss",
@@ -1101,7 +1207,7 @@
       }
     },
     {
-      "name": "Markdown heading punct",
+      "name": "Markdown heading punctuation",
       "scope": [
         "punctuation.definition.heading.markdown"
       ],
@@ -1208,7 +1314,7 @@
       }
     },
     {
-      "name": "YAML anchor",
+      "name": "YAML anchor / alias",
       "scope": [
         "entity.name.type.anchor.yaml",
         "variable.other.alias.yaml",
@@ -1224,7 +1330,7 @@
     // 18. TOML/INI
     // ────────────────────────────────────────────────────────
     {
-      "name": "TOML/INI section",
+      "name": "TOML/INI section header",
       "scope": [
         "entity.name.section.group-title.ini",
         "support.type.property-name.table.toml",
@@ -1316,7 +1422,7 @@
       }
     },
     {
-      "name": "Python f-string",
+      "name": "Python f-string expression",
       "scope": [
         "meta.fstring storage.type.format",
         "constant.character.format.placeholder.other.python"
@@ -1331,7 +1437,7 @@
     // 22. Go
     // ────────────────────────────────────────────────────────
     {
-      "name": "Go package",
+      "name": "Go package name",
       "scope": [
         "entity.name.package.go"
       ],

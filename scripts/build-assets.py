@@ -42,6 +42,7 @@ TAGLINES = {
     "drivein": "1950s Americana",
     "psychedelic": "1960s counterculture",
     "marquee": "Classic Hollywood marquee lights",
+    "silentera": "Silver nitrate, title cards",
 }
 
 
@@ -234,6 +235,26 @@ def vignette_marquee(p: dict) -> str:
     return "".join(parts)
 
 
+def vignette_silentera(p: dict) -> str:
+    """Academy countdown leader: sweep wedge, crosshair, numeral."""
+    cx, cy, r = 380, 150, 128
+    return "".join([
+        f'<rect width="{VIGNETTE_WIDTH}" height="{VIGNETTE_HEIGHT}" fill="{p["fg"]}" fill-opacity="0.05"/>',
+        # frame-edge sprocket holes
+        "".join(f'<rect x="{x}" y="{y}" width="16" height="12" rx="3" fill="{p["fg"]}" fill-opacity="0.12"/>'
+                for x in (14, 730) for y in range(18, VIGNETTE_HEIGHT - 18, 34)),
+        # sweep wedge from twelve o'clock
+        f'<path d="M{cx},{cy} L{cx},{cy - r} A{r},{r} 0 0 1 {cx + r * 0.866:.0f},{cy - r * 0.5:.0f} Z" '
+        f'fill="{p["fg"]}" fill-opacity="0.1"/>',
+        f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{p["keyword"]}" stroke-width="3" stroke-opacity="0.85"/>',
+        f'<circle cx="{cx}" cy="{cy}" r="{r - 30}" fill="none" stroke="{p["keyword"]}" stroke-width="2" stroke-opacity="0.4"/>',
+        f'<line x1="{cx - 190}" y1="{cy}" x2="{cx + 190}" y2="{cy}" stroke="{p["comment"]}" stroke-opacity="0.5"/>',
+        f'<line x1="{cx}" y1="{cy - 140}" x2="{cx}" y2="{cy + 140}" stroke="{p["comment"]}" stroke-opacity="0.5"/>',
+        f'<text x="{cx}" y="{cy + 58}" text-anchor="middle" font-family="{SERIF}" '
+        f'font-size="160" fill="{p["keyword"]}">3</text>',
+    ])
+
+
 VIGNETTES = {
     "neon": vignette_neon,
     "deep": vignette_deep,
@@ -242,6 +263,7 @@ VIGNETTES = {
     "drivein": vignette_drivein,
     "psychedelic": vignette_psychedelic,
     "marquee": vignette_marquee,
+    "silentera": vignette_silentera,
 }
 
 
@@ -302,7 +324,7 @@ def banner_svg(accents: list) -> str:
         f'fill="#E8E0CE">TECHNICOLOR</text>'
         f'<text x="{BANNER_WIDTH / 2}" y="148" text-anchor="middle" '
         f'font-family="{SERIF}" font-size="13" letter-spacing="6" '
-        f'fill="#8A8578">SEVEN DARK THEMES FOR VISUAL STUDIO CODE</text>'
+        f'fill="#8A8578">EIGHT DARK THEMES FOR VISUAL STUDIO CODE</text>'
         f"{bars}</svg>\n"
     )
 
