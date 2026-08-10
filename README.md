@@ -6,10 +6,10 @@ Eight dark themes for VS Code inspired by a century of cinema. From the silver s
 
 [Deep](#deep) ·
 [Kodachrome](#kodachrome) ·
-[Warm](#warm) ·
-[Neon](#neon) ·
 [Marquee](#marquee) ·
+[Neon](#neon) ·
 [Drive-In](#drive-in) ·
+[Warm](#warm) ·
 [Psychedelic](#psychedelic) ·
 [Silent Era](#silent-era)
 
@@ -27,11 +27,11 @@ Eight dark themes for VS Code inspired by a century of cinema. From the silver s
 
 <img src="images/screenshot-kodachrome.png" alt="Technicolor Kodachrome — Go" width="820">
 
-### Warm
+### Marquee
 
-<img src="images/band-warm.png" alt="Warm — reference plate and palette" width="820">
+<img src="images/band-marquee.png" alt="Marquee — reference plate and palette" width="820">
 
-<img src="images/screenshot-warm.png" alt="Technicolor Warm — Python" width="820">
+<img src="images/screenshot-marquee.png" alt="Technicolor Marquee — Svelte" width="820">
 
 ### Neon
 
@@ -39,17 +39,17 @@ Eight dark themes for VS Code inspired by a century of cinema. From the silver s
 
 <img src="images/screenshot-neon.png" alt="Technicolor Neon — TypeScript" width="820">
 
-### Marquee
-
-<img src="images/band-marquee.png" alt="Marquee — reference plate and palette" width="820">
-
-<img src="images/screenshot-marquee.png" alt="Technicolor Marquee — Svelte" width="820">
-
 ### Drive-In
 
 <img src="images/band-drivein.png" alt="Drive-In — reference plate and palette" width="820">
 
 <img src="images/screenshot-drivein.png" alt="Technicolor Drive-In — HTML" width="820">
+
+### Warm
+
+<img src="images/band-warm.png" alt="Warm — reference plate and palette" width="820">
+
+<img src="images/screenshot-warm.png" alt="Technicolor Warm — Python" width="820">
 
 ### Psychedelic
 
