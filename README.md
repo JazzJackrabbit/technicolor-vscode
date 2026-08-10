@@ -11,7 +11,7 @@ Eight dark themes for VS Code inspired by a century of cinema. From the silver s
 [Marquee](#marquee) ·
 [Drive-In](#drive-in) ·
 [Psychedelic](#psychedelic) ·
-[Silent Era](#silentera)
+[Silent Era](#silent-era)
 
 ## Themes
 
