@@ -3,6 +3,14 @@
 All notable changes to the Technicolor themes are documented in this file. The
 format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## 0.2.2 - 2026-08-14
+
+### Changed
+
+- Rebuilt the README around public-domain cinema plates, fixed the Silent
+  Era navigation anchor, and reordered the theme list so warm and cool
+  variants alternate.
+
 ## 0.2.1 - 2026-08-10
 
 ### Fixed
